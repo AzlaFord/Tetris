@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 70px); /* Adjust as needed */
+    grid-template-rows: repeat(8, 70px); /* Adjust as needed */
+    gap: 1px; /* Adjust the gap between blocks as needed */
+    
+    width: 281px;
+    height: 496px;
+
+  }
+  
+  .grid-cell {
+    background-color: transparent; /* Set the default background color */
+    border: 1px solid #999; /* Add borders for visual separation */
+  }
+  
+  .block {
+    background-color: #00f; /* Set block color */
+  }
+  .grid-container div{
+
+    border:#00f solid 1px;
+  }
